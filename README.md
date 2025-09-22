@@ -95,44 +95,12 @@ describe('Accessibility Test', () => {
 
 ➡️ These are real accessibility problems in the demo app, captured successfully with Cypress.
 
----
-
-## 🎬 Demo Video
-Accompanying video includes:  
-- Functional login workflows  
-- API request/response validation  
-- Accessibility scan logging issues  
-- Debugging example with failing → corrected test  
-- Performance check for homepage load time  
-
----
-
-## 💡 Key Learnings
+## 💡 Tests
 - Cypress offers a **complete test framework** beyond UI automation.  
 - Integrated API + Accessibility + Performance capabilities make it ideal for modern QA pipelines.  
 - Debugging tools (`.debug()`, Runner snapshots) simplify test maintenance.  
 - Accessibility testing with axe uncovers **real-world WCAG violations**.  
 - Documenting both **success and failure** is vital in professional QA practice.  
-
----
-
-## 📂 Repository Structure
-```
-cypress-heroku-project/
-├── cypress/
-│   ├── e2e/
-│   │   ├── functional-tests.cy.js
-│   │   ├── api-tests.cy.js
-│   │   ├── performance-test.cy.js
-│   │   ├── a11y-test.cy.js
-│   │   ├── debugging-test.cy.js
-│   └── support/
-│       └── commands.js
-├── package.json
-└── README.md
-```
-
----
 
 # ✅ Conclusion
 This project demonstrates complete QA coverage using Cypress on a real demo application. It includes **functional, API, performance, debugging, and accessibility testing**, along with clear documentation and a video demo. The combination of automation breadth and structured test plan highlights Cypress as a versatile tool for end-to-end quality assurance engineering.
