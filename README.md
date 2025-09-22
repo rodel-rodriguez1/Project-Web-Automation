@@ -95,7 +95,7 @@ describe('Accessibility Test', () => {
 
 ➡️ These are real accessibility problems in the demo app, captured successfully with Cypress.
 
-## 💡 Tests
+## 💡 What I Learned
 - Cypress offers a **complete test framework** beyond UI automation.  
 - Integrated API + Accessibility + Performance capabilities make it ideal for modern QA pipelines.  
 - Debugging tools (`.debug()`, Runner snapshots) simplify test maintenance.  
