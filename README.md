@@ -2,32 +2,6 @@
 
 The purpose of this project is to showcase a **complete QA automation workflow** suitable for a real-world quality assurance role.
 
----
-
-## ⚙️ Setup & Installation
-
-1. **Clone the Repository**
-   ```bash
-   git clone <your_repo_url>
-   cd cypress-heroku-project
-   ```
-
-2. **Install Dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Open Cypress Test Runner**
-   ```bash
-   npx cypress open
-   ```
-   Or run only in headless mode:
-   ```bash
-   npx cypress run
-   ```
-
----
-
 ## 📝 Test Plan
 The scope of this project focuses on validating critical functionalities of *The Internet by Heroku* demo site. Functional testing covers the login page with both valid and invalid credentials, ensuring correct navigation to protected areas on success and error messages on failure. Navigation workflows are tested by opening the “Commands” dropdown and verifying that selecting “Navigation” leads to a URL containing `/commands/navigation` and displays the expected page content. API testing validates backend communication by sending requests to endpoints such as `/status_codes/200` and confirming correct responses. Performance testing involves checking that critical pages, such as the homepage, load within an acceptable response time (under two seconds). Accessibility testing scans the homepage using the `cypress-axe` plugin to detect issues such as poor color contrast, missing HTML landmarks, and ARIA region problems. Debugging is intentionally built into the plan by writing failing tests (e.g., using an incorrect selector) and then demonstrating the debugging workflow with Cypress snapshots, `cy.debug()`, and corrected selectors. Collectively, these test cases ensure coverage across usability, reliability, accessibility, and developer-debugging readiness.
 
