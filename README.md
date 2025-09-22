@@ -1,16 +1,5 @@
 # 🧪 Cypress QA Project – Automated Testing on *The Internet by Heroku*
 
-## 📌 Overview
-This project demonstrates end-to-end automated testing using **Cypress** on the public demo site:  
-👉 [The Internet by Heroku](https://the-internet.herokuapp.com)
-
-The testing includes:  
-- ✅ Functional tests of UI workflows  
-- 📡 API validation using Cypress requests  
-- 🐞 Debugging workflow demonstration  
-- ⚡ Basic performance checks  
-- ♿ Accessibility scans with `cypress-axe`  
-
 The purpose of this project is to showcase a **complete QA automation workflow** suitable for a real-world quality assurance role.
 
 ---
